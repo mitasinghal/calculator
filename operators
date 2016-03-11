@@ -1,0 +1,32 @@
+public class Maincalc {
+public static void main(string[] args) {
+calculatorA1 =new calculator();
+calculatorA2 =new calculator();
+calculatorA3 =new calculator();
+calculatorA4 =new calculator();
+A1.name = "Addition is";
+A2.name = "Substraction is";
+A3.name = "Division is";
+A4.name = "Multiplication is";
+
+system.out.println (A1.name + A1.Add(2,8));
+system.out.println (A2.name + A2.Substract(7,5));
+system.out.println (A3.name + A3.Divide(10,5));
+system.out.println (A4.name + A4.Multiply(7,5));
+}
+}
+public class calculator {
+string name;
+public  int add(x,y){
+return x+y;
+} 
+Public  int  Substract(m,n){
+return m-n;
+} 
+Public  double  Divide(o,p){
+return o/p;
+} 
+Public  int Multiply(m,n ){
+return m*n;
+} 
+}
